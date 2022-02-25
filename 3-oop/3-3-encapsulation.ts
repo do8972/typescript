@@ -7,6 +7,7 @@
   // public => 공개적으로 설정되어 있음. 작성하지 않으면 모두 public으로 설정.
   // private => 외부에서는 볼 수 없고, 접근도 불가능.
   // protected => 외부에서는 접근할 수 없지만 자식클래스에서는 접근 가능.
+  // static => class 함수로 지정.
 
   class CoffeeMaker {
     private static BEANS_GRAMM_PER_SHOT: number = 7; // class level
@@ -64,5 +65,5 @@
   console.log(user.fullName);
   user.age = 6;
   console.log(user);
-  console.log(user.age)
+  console.log(user.age);
 }
