@@ -23,7 +23,7 @@ class Dog extends Animal {
   isDog: boolean = false;
 }
 
-const animals: Animal[] = [new Cat(), new Cat(), new Cat()];
+const animals: Animal[] = [new Cat(), new Cat(), new Dog()];
 function isCat(animal: Animal): animal is Cat {
   return (animal as Cat).isCat !== undefined;
 }
